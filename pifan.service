@@ -5,8 +5,8 @@ After=network.target
 [Service]
 Type=simple
 User=pi
-WorkingDirectory=/home/pi/pifan
-ExecStart=/usr/bin/python3 /home/pi/pifan/cpu_temp.py
+WorkingDirectory=/home/xcapt/repos/pifan
+ExecStart=/usr/bin/python3 /home/xcapt/repos/pifan/cpu_temp.py
 Restart=always
 RestartSec=10
 
